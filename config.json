@@ -71,6 +71,12 @@
       "css": "graduation-cap",
       "code": 61853,
       "src": "fontawesome"
+    },
+    {
+      "uid": "0ece9a12de796b8411f868d582bee678",
+      "css": "github-squared",
+      "code": 62208,
+      "src": "fontawesome"
     }
   ]
 }
