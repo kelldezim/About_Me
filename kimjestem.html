@@ -6,6 +6,8 @@
 
         <title>Grzegorz Kapałka - Portfolio</title>
 
+        <script type="text/javascript" src="timer.js"></script>
+
         <meta name="description" content="Stworzę dla Ciebie wyjątkową stronę www! Zatrudnij programistę webowego: PHP, JavaScript, HTML, CSS, MySQL, WordPress, Joomla, Drupal."/>
         <meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, php, jacascript, html, css, WordPress, Joomia, Drupal"/> 
 
@@ -15,7 +17,7 @@
 
     </head>
 
-    <body>
+    <body onload="odliczanie();">
         <div id="container">
 
             <div class="rectangle">
@@ -24,7 +26,7 @@
                     Grzegorz Kapałka
                     </a>
                 </div>
-                <div id="zegar">12:00:00</div>
+                <div id="zegar"></div>
                 <div style="clear: both;"></div>
             </div>
 
